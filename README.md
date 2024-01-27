@@ -6,10 +6,12 @@ Pactus v1.0.0-rc-0 (Release Candidate)
 
 	./pactus-daemon init  -w=working1
 
-save seeds
+save seeds ...
 
 You can start the node by running this command:
+
 	./pactus-daemon start -w /root/pactus-cli_1.0.0-rc-0/working1
 
 See log
+
 	cat ./pactus-cli_1.0.0-rc-0/working1/pactus.log
