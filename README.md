@@ -4,6 +4,8 @@ Pactus v1.0.0-rc-0 (Release Candidate)
 	wget https://github.com/pactus-project/pactus/releases/download/v1.0.0-rc-0/pactus-cli_1 
 	tar -xvzf pactus-cli_1.0.0-rc-0_linux_amd64.tar.gz
 	cd pactus-cli_1.0.0-rc-0
+ 
+If everything is okay
 
 	./pactus-daemon init  -w=working1
 
