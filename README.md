@@ -15,6 +15,7 @@ You can start the node by running this command:
 
 	./pactus-daemon start -w /root/pactus-cli_1.0.0-rc-0/working1
 To leave the screen ctrl + AD
+
 See log
 
 	cat ./pactus-cli_1.0.0-rc-0/working1/pactus.log
