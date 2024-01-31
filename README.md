@@ -1,5 +1,5 @@
 # Pactus-Mainnet on Ubuntu 22.04
-Pactus v1.0.0-rc-0 (Release Candidate)
+Pactus v1.0.0 
 
 	wget https://github.com/pactus-project/pactus/releases/download/v1.0.0/pactus-cli_1.0.0_linux_amd64.tar.gz
 	tar -xvzf pactus-cli_1.0.0_linux_amd64.tar.gz
