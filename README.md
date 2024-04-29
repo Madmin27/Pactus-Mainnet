@@ -1,9 +1,9 @@
 # Pactus-Mainnet on Ubuntu 22.04
-Pactus v1.0.0 
+Pactus v1.1.3 
 
-	wget https://github.com/pactus-project/pactus/releases/download/v1.0.0/pactus-cli_1.0.0_linux_amd64.tar.gz
-	tar -xvzf pactus-cli_1.0.0_linux_amd64.tar.gz
-	mv pactus-cli_1.0.0 pactus
+	wget https://github.com/pactus-project/pactus/releases/download/v1.1.3/pactus-cli_1.1.3_linux_amd64.tar.gz
+	tar -xvzf pactus-cli_1.1.3_linux_amd64.tar.gz
+	mv pactus-cli_1.1.3 pactus
 
 New working
 
@@ -28,12 +28,13 @@ paste
 	[Service]
 	User=root
 	Group=root
-	ExecStart= /root/node_pactus/./pactus-daemon start --password "<your-pass>" 
+	ExecStart= /root/pactus-cli_1.1.3/./pactus-daemon start -w /root/pactus --password Pac27tus*
 	Restart=always
 	RestartSec=15
 	
 	[Install]
 	WantedBy=multi-user.target
+
 
  
 start
