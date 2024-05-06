@@ -1,7 +1,7 @@
 # Pactus-Mainnet on Ubuntu 22.04
-Pactus v1.1.3 
+Pactus v1.1.4 
 
-	wget https://github.com/pactus-project/pactus/releases/download/v1.1.3/pactus-cli_1.1.4_linux_amd64.tar.gz
+	wget https://github.com/pactus-project/pactus/releases/download/v1.1.4/pactus-cli_1.1.4_linux_amd64.tar.gz
 	tar -xvzf pactus-cli_1.1.4_linux_amd64.tar.gz
 	mv pactus-cli_1.1.4 pactus
 
