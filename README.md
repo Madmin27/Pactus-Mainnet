@@ -4,19 +4,21 @@ Pactus v1.1.4
 	wget https://github.com/pactus-project/pactus/releases/download/v1.1.4/pactus-cli_1.1.4_linux_amd64.tar.gz
 	tar -xvzf pactus-cli_1.1.4_linux_amd64.tar.gz
 	mv pactus-cli_1.1.4 pactus
-
-New working
+İlk Çalıştırma
 
 	cd pactus
 	./pactus-daemon init
 
-save seeds pls
+Kelimeleri kaydet, onlar senin cüzdan kelimelerin
 
-You can start the node by running this command:
+Aşağıdaki komutla çalıştırıp logları görelim. Biraz çalıştıktan sonra kapat
 
 	./pactus-daemon start
+ 
 parola gir ve unutma / save pass pls
 Çıkış ctrl + C
+
+Şimdi aşağıdaki komutları bir defada gir pactus service oluşsun
 
 	sudo tee /etc/systemd/system/pactusd.service > /dev/null <<EOF
 	[Unit]
