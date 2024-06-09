@@ -8,7 +8,7 @@ Terminale gir
 
 içerisine aşağıdakileri gir veya versiyon numarasını değiştir
 
-        [Unit]
+    [Unit]
     Description=pactus-Mainnet
     After=network.target
     
