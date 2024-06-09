@@ -5,6 +5,7 @@ Terminale gir
     tar -xvzf pactus-cli_1.1.8_linux_amd64.tar.gz
 
 aşağıdaki ile service dosyasına gir
+
     nano /etc/systemd/system/pactusd.service
 
 içerisine aşağıdakileri gir veya versiyon numarasını değiştir
